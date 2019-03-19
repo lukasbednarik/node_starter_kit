@@ -1,0 +1,22 @@
+{
+  "name": "node_starter_kit",
+  "version": "1.0.0",
+  "description": "Simple starter kit for TDD fooling around with pure node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netchkin/node_starter_kit.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Pavel Janecka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/netchkin/node_starter_kit/issues"
+  },
+  "homepage": "https://github.com/netchkin/node_starter_kit#readme"
+}
