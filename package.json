@@ -2,9 +2,9 @@
   "name": "node_starter_kit",
   "version": "1.0.0",
   "description": "Simple starter kit for TDD fooling around with pure node.js",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "./node_modules/.bin/mocha \"src/**/*.spec.js\" --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/netchkin/node_starter_kit/issues"
   },
-  "homepage": "https://github.com/netchkin/node_starter_kit#readme"
+  "homepage": "https://github.com/netchkin/node_starter_kit#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
 }
